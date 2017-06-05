@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  taxisyaconductor
+
+  Created by Leonardo Rodriguez on 10/23/15.
+  Copyright © 2015 Imaginamos. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Taxista";
+"CFBundleName" = "Taxista";

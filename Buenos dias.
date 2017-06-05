@@ -1,0 +1,61 @@
+Buenos dias.
+
+Esto son las inconsistencias presentadas en las pruebas de los dispositivos IOS
+
+I. Prueba Usuario IOS Conductor Android.
+    1). Se solicita un  servicio; El Conductor (Android) toma el servicio en el momento de que el conductor marca la opción "Ya estoy aquí" y el usuario IOS cancela el servicio el aplicativo genera lo siguiente:
+
+        a). Al conductor (Android) le genera mensaje "Recibido por el usuario" y lo deja en la pantalla de Finalización del servicio.
+
+        b). Al usuario IOS lo saca del registro de solicitud pero llega un mensaje "Nuestro conductor a llegado", pero se encuentra en la pantalla de solicitud de servicio. adicional mente se puede solicitar un nuevo servicio.
+
+        c). Al solicitar un nuevo servicio por parte del usuario y el conductor realizar la Finalización del servicio que tenia abierto, al usuario le aparece la pantalla de solicitud de calificación del servicio.
+
+    2). Se solicita un  servicio; El Conductor (Android) toma el servicio, al usuario le llega el servicio, ingresa a la opción de Mapa, el conductor realiza la opción donde se define "Ya estoy aquí", el usuario vuelve a la pagina principal del servicio, al finalizar el servicio por parte del conductor aparece el  botón de calificar servicio al oprimirlo este se sale de dicha opción y no deja realizar la calificación.
+
+    3). Se solicita un  servicio; el conductor toma el  servicio y al momento lo cancela, esta generándose hasta tres veces el mensaje "El servicio ha sido cancelado por el Conductor".
+
+    4). Se solicita un  servicio; el conductor toma el  servicio y al momento lo cancela, al usuario le llega un mensaje "El servicio ha sido cancelado por el Conductor", el usuario se sale de la APP y al rato vuelve a abrir el APP para solicitar un nuevo servicio, en ese momento le esta apareciendo la solicitud de calificación........ cierra el APP y vuelve a ingresar y vuelve a aparecer la solicitud de Calificación.
+
+II. Prueba Usuario Android Conductor IOS.
+
+    1). Se solicita un  servicio; el conductor toma el servicio, pero al momento el usuario y el conductor realizan el siguiente procedimiento.
+
+        a). El usuario cancela el servicio y unos segundos después el conductor oprime el botón "Ya estoy aquí", en ese momento al usuario le queda el dispositivo sin el servicio y al conductor le queda el servicio abierto. En este caso no esta llegando la calificación al usuario pero al rato aparece el servicio.
+
+    2). Se solicita un  servicio; el conductor toma el servicio, al usuario le aparece el servicio tomado por el conductor pero ingresa a la opción de Mapa, el usuario se sale del APP vuelve ingresa aparece el servicio pero automáticamente pasa al siguiente paso donde esta solo la opción de ver Mapa, quedando bloqueada la pantalla del usuario.
+
+        a). se vuelve a realizar el proceso y aparece la calificación del servicio pero nunca se presto el servicio.
+
+III. Prueba Usuario IOS Conductor IOS.
+
+    1). Se solicita un  servicio; El Conductor (IOS) toma el servicio en el momento de que el conductor marca la opción "Ya estoy aquí" y el usuario IOS cancela el servicio el aplicativo genera lo siguiente:
+
+        a). Al conductor (IOS) le genera mensaje "Recibido por el usuario" y lo deja en la pantalla de Finalización del servicio.
+
+        b). Al usuario IOS lo saca del registro de solicitud pero llega un mensaje "Nuestro conductor a llegado", pero se encuentra en la pantalla de solicitud de servicio. adicional mente se puede solicitar un nuevo servicio.
+
+        c). Al solicitar un nuevo servicio por parte del usuario y el conductor realizar la Finalización del servicio que tenia abierto, al usuario le aparece la pantalla de solicitud de calificación del servicio.
+
+    2). Se solicita un  servicio; el conductor toma el  servicio y al momento lo cancela, esta generándose hasta tres veces el mensaje "El servicio ha sido cancelado por el Conductor".
+
+    3). Se solicita un  servicio; el conductor toma el  servicio y al momento se le apaga el APP de usuario IOS el mensaje llega al dispositivo, al prender nuevamente el APP aparece el mensaje “El taxi ha llegado” pero el servicio se pierde,
+
+        a). se vuelve a solicitar el servicio y al tomar el servicio por el conductor en el APP de usuario aparece un servicio pero desde la opción de ver mapa ……. El conductor efectúa el proceso de “Ya estoy aquí” y Finalizar al usuario solo le aparece la calificación.
+
+    4). Se solicita un  servicio; el conductor toma el  servicio, le aplica la opción “Ya estoy aquí” en ese momento se le apaga el APP de Conductor IOS el mensaje de que nuestro conductor a llegado aparece en el APP de usuarios, pero al abrir nuevamente el APP de conductor.
+
+        a). Ya no aparece el servicio, y al usuario se le queda pegado el servicio en la opción de ver mapa.
+
+        b) al salirse del APP de usuario y volver a entrar el servicio ya no aparece, pero al solicitar nuevamente un servicio, no esta llegando al APP de conductor.
+
+
+
+Hasta aquí se ha realizado la gran mayoría de casos relacionados con Usuarios y Conductores IOS.
+
+
+
+5). Se solicita un  servicio; el conductor toma el  servicio y al momento lo cancela, al usuario le llega un mensaje "El servicio ha sido cancelado por el Conductor", el usuario se sale de la APP y al rato vuelve a abrir el APP para solicitar un nuevo servicio, en ese momento le esta apareciendo la solicitud de calificación........ cierra el APP y vuelve a ingresar y vuelve a aparecer la solicitud de Calificación.
+
+
+
