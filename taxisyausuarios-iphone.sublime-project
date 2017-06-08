@@ -1,0 +1,34 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name":"iOS clean",
+            "shell_cmd": "gradle clean",
+            "working_dir": "$project_path"
+        },
+        {
+            "name":"iOS build debug",
+            "shell_cmd": "gradle build",
+            "working_dir": "$project_path"
+        },
+        {
+            "name":"iOS assemble debug",
+            "shell_cmd": "gradle assembleDebug",
+            "working_dir": "$project_path"
+        },
+        /*
+        ,
+        {
+            "name": "adb taxisusuario",
+            "shell_cmd": "adb -s TA93406JOC logcat PARTES:V SERVICE:V TEST:V \\*:S",
+            "working_dir": "$project_path"
+        }
+        */
+    ]
+}

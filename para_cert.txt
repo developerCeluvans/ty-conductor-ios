@@ -1,0 +1,9 @@
+[10:21:10]: Certificate 3N4ESDUPLU (Imaginamos LTDA) can't be found on your local computer
+[10:21:16]: Certificate CU82X52228 (Imaginamos LTDA) can't be found on your local computer
+[10:21:16]: Couldn't find an existing certificate... creating a new one
+[10:21:29]: $ security import /Users/leo/code/imaginamos/projects/TaxisYa/taxisyausuarios-iphone/L8H97996GY.p12 -k '/Users/leo/Library/Keychains/login.keychain' -T /usr/bin/codesign -T /usr/bin/security
+[10:21:29]: ▸ 1 key imported.
+[10:21:29]: $ security import /Users/leo/code/imaginamos/projects/TaxisYa/taxisyausuarios-iphone/L8H97996GY.cer -k '/Users/leo/Library/Keychains/login.keychain' -T /usr/bin/codesign -T /usr/bin/security
+[10:21:29]: ▸ 1 certificate imported.
+
+

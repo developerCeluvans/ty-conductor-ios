@@ -1,0 +1,202 @@
+/*
+  Localizable.strings
+  taxisya
+
+  Created by Leonardo Rodriguez on 10/19/15.
+  Copyright © 2015 imaginamos. All rights reserved.
+*/
+
+// Test position
+"geo_lat" = "25.748273";
+"geo_lng" = "-80.322514";
+
+// Options
+"item_agendar_normal" = "item_agendar_normal";
+"item_agendar_over" = "item_agendar_over";
+"item_pedirtaxi_normal" = "item_pedirtaxi_normal";
+"item_pedirtaxi_over" = "item_pedirtaxi_over";
+"item_perfil_normal" = "item_perfil_normal";
+"item_perfil_over" = "item_perfil_over";
+"item_reclamo_normal" = "item_reclamo_normal";
+"item_reclamo_over" = "item_reclamo_over";
+
+// Verifify
+"string_verifing" = "Verifing";
+"check_internet_connection" = "Check internet connection";
+"title_brand" = "Brand";
+"send_claim" = "Send claim";
+"input_claim" = "Enter the claim";
+
+
+// ServiceVWC
+"service_my_addresses" = "My addresses";
+"service_button_request" = "Request cab";
+"service_button_request_schedule" = "Confirm address";
+"service_button_cancelar" = "Cancel";
+"service_searching" = "Looking address...";
+"service_wait_message" = "Almost there";
+"service_footer" = "Over 2700 active units";
+"service_alert_cancel_title" = "Important!";
+"service_alert_cancel_message" = "Are you sure to cancel the service?";
+"service_alert_button_yes" = "Yes";
+"service_alert_button_no" = "No";
+"service_alert_timeout_title" = "We are sorry";
+"service_alert_timeout_message" = "At the moment there are no drivers available";
+"service_alert_timeout_accept" = "Accept";
+"service_alert_gps_message" = "Please enable your GPS";
+"service_alert_address" = "Complete your address data";
+"service_alert_title_connection" = "Connection error";
+"service_alert_check_message" = "Check your Internet connection";
+"service_alert_driver_cancel" = "The service has been canceled by the driver";
+"service_alert_check_user" = "Please enter your user";
+"service_alert_use_user" = "Please enter your user";
+"service_message_tanks" = "Thank you for using TaxisYa, we invite you to rate our service";
+"service_message_reset" = "hello in a few minutes I will be at your disposal to take you to your destination safe";
+"service_message_my_information" = "My data are:";
+"service_button_cancel" = "Cancel";
+"service_button_map" = "See map";
+"service_button_rate" = "Rate service";
+"service_license_plate" = "License Plate";
+"service_brand" = "Brand";
+
+"address_full_title" = "Wrong address";
+"address_description" = "Please, fill address correctly";
+
+
+// Addresses
+"addresses_title" = "My Addresses";
+"addresses_add_new" = "Add new";
+
+// NewAddress
+"new_address_address" = "Address";
+"new_address_name" = "Name";
+"new_address_comment" = "Want to add a comment?";
+"new_address_button_add" = "Add to my address";
+
+
+
+// LoadingVWC
+"loading_button_driver" = "Driver";
+
+// QualityService
+"quality_title" = "Rate";
+"quality_subtitle" = "The Service";
+"quality_message" = "Thank you for using our services, please rate your driver.";
+"quality_button_very_good" = "Very Good";
+"quality_button_okay" = "Okay";
+"quality_button_bad" = "Bad";
+
+// Profile
+"profile_button_register" = "Register";
+"profile_button_login" = "Now I have my account";
+"profile_button_update" = "Update the data";
+"profile_button_payment" = "Payment methods";
+"profile_button_logout" = "Close session";
+
+
+// Register
+"register_name" = "Your first and last name";
+"register_email" = "Your email";
+"register_cellphone" = "Your cellphone";
+"register_password" = "Your password";
+"register_btn_register" = "Register";
+"register_btn_login" = "Now I have my account";
+"register_btn_sign_in" = "Login";
+"login_btn_sign_in" = "Login";
+"login_btn_register" = "Register";
+"login_btn_recover" = "Forgot your password?";
+
+"register_title_1" = "Enter these 4 data";
+"register_title_2" = "only once";
+"register_title_3" = "For your safety and driver";
+
+"login_title_1" = "Now I have my account";
+"login_title_2" = "Enter your information";
+
+
+// recover
+"recover_email" = "Enter your email";
+"recover_title" = "Recover password";
+"recover_btn_finish" = "Finalized";
+
+"recover_input_valid_email" = "Enter valid email";
+"recover_input_email" = "Enter your email";
+"recover_input_password" = "Recovery password";
+"recover_input_code" = "Enter code";
+"recover_email_not_registered" = "Email is not registered";
+"recover_input_code_received" = "Enter the confirmation code sent to your email so you can enter the new password";
+"recover_error_code_register" = "Wrong Code!";
+
+
+
+
+"register_alert_title" = "Warning!";
+"register_alert_button" = "Accept";
+"register_alert_1" = "You must enter your password";
+"register_alert_2" = "You must enter a valid email address";
+"register_alert_3" = "You must enter your email";
+"register_alert_4" = "You must enter your password";
+"register_alert_5" = "You must enter a valid number";
+"register_alert_6" = "You must enter your cellphone";
+"register_alert_7" = "You must enter a valid email address";
+"register_alert_8" = "You must enter your email";
+"register_alert_9" = "You must enter Your first and last names";
+"register_alert_10" = "User not found, check your Email or Password";
+"register_alert_11" = "Check your Internet connection";
+"register_alert_12" = "User already registered";
+
+
+// History
+"history_no_services" = "No completed services";
+
+// Login
+
+// Schedule
+"schedule_button_schedules" = "See my schedules";
+"schedule_button_new" = "Service schedule";
+"schedule_title_one_1" = "Date scheduling";
+"schedule_title_one_2" = "Max 24 hr before";
+
+"schedule_title_two_1" = "Reason for scheduling";
+"schedule_title_two_2" = "Max 24 hr before";
+
+"schedule_title_three_1" = "Scheduling site";
+"schedule_title_three_2" = "Only for the city";
+
+"schedule_middle_one_1" = "Place of destination";
+"schedule_middle_one_2" = "Only outside the city and messaging";
+
+"schedule_confirmation" = "Confirm request";
+
+
+"schedule_item_cancel" = "Cancel";
+"schedule_item_finished" = "Finalized";
+"schedule_item_wait" = "On hold";
+"schedule_item_cancelled" = "Cancelled";
+"schedule_item_plate" = "License Plate";
+"schedule_item_brand" = "Brand";
+"schedule_item_site" = "My location";
+"schedule_item_destination" = "Destination";
+"schedule_item_outside" = "Out of the city";
+"schedule_item_barrio" = "Neighborhood";
+"schedule_my_schedules" = "My schedules";
+"schedule_set_date" = "Select date and time";
+
+// network status
+"connection_bad" = "No Internet Connectivity";
+
+// payment
+"payment_type_label" = "Pay type";
+"payment_type_cash" = "Cash";
+"payment_type_tc" = "Credit card";
+"payment_type_ticket" = "Ticket";
+"payment_list_title" = "Payment methods";
+"payment_list_add" = "Add new";
+
+// ticket
+"ticket_code" = "Code of authorization";
+"ticket_value" = "Input data of ticket";
+"ticket_tot_units" = "Tot units: ";
+"ticket_tot_charge" = "Total charge: ";
+"ticket_tot_val" = "Total USD";
+

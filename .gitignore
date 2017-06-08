@@ -11,6 +11,11 @@
 *.lock
 profile
 
+# fastlane
+*.p12
+*.cer
+*.certSigningRequest
+
 
 ####
 # Xcode temporary files that should never be committed

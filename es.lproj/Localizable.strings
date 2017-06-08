@@ -1,0 +1,201 @@
+/*
+  Localizable.strings
+  taxisya
+
+  Created by Leonardo Rodriguez on 10/19/15.
+  Copyright © 2015 imaginamos. All rights reserved.
+*/
+
+// Test position
+//"geo_lat" = "4.676487";
+//"geo_lng" = "-74.056698";
+"geo_lat" = "25.748273";
+"geo_lng" = "-80.322514";
+
+// Options
+"item_agendar_normal" = "item_agendar_normal_es";
+"item_agendar_over" = "item_agendar_over_es";
+"item_pedirtaxi_normal" = "item_pedirtaxi_normal_es";
+"item_pedirtaxi_over" = "item_pedirtaxi_over_es";
+"item_perfil_normal" = "item_perfil_normal_es";
+"item_perfil_over" = "item_perfil_over_es";
+"item_reclamo_normal" = "item_reclamo_normal_es";
+"item_reclamo_over" = "item_reclamo_over_es";
+
+// Verifify
+"string_verifing" = "Verificando";
+"check_internet_connection" = "Verifica tu conexion a Internet";
+"title_brand" = "Marca";
+"send_claim" = "Enviar Reclamo";
+"input_claim" = "Digite el reclamo";
+
+// ServiceVWC
+"service_my_addresses" = "Mis direcciones";
+"service_button_request" = "Pedir Taxi";
+"service_button_request_schedule" = "Confirmar dirección";
+"service_button_cancelar" = "Cancelar";
+"service_searching" = "Buscando dirección...";
+"service_wait_message" = "Ya falta poco";
+"service_footer" = "Más de 2700 unidades activas";
+"service_alert_cancel_title" = "!importante!";
+"service_alert_cancel_message" = "¿Estás seguro de cancelar el servicio?";
+"service_alert_cancel_request_message" = "¿Estás seguro de cancelar el servicio?";
+
+"service_alert_button_yes" = "Si";
+"service_alert_button_no" = "No";
+"service_alert_timeout_title" = "Lo sentimos";
+"service_alert_timeout_message" = "En el momento no hay taxis disponibles, intentalo en 10 minutos";
+"service_alert_timeout_accept" = "Aceptar";
+"service_alert_gps_message" = "Para continuar activa la Geolocalización.";
+"service_alert_address" = "Completa los datos de tu dirección";
+"service_alert_title_connection" = "Error de conexión";
+"service_alert_check_message" = "Verifica tu conexion a Internet";
+"service_alert_driver_cancel" = "El servicio ha sido cancelado por el conductor";
+"service_alert_check_user" = "Por favor ingresa con tu usuario";
+"service_alert_use_user" = "Por favor ingresa con tu usuario";
+"service_message_tanks" = "Gracias por utilizar TaxisYa, lo invitamos a calificar nuestro servicio";
+"service_message_reset" = "hola dentro de pocos minutos estaré a tu disposición para llevarte seguro en tu destino";
+"service_message_my_information" = "Mis datos son:";
+"service_button_cancel" = "Cancelar";
+"service_button_map" = "Ver mapa";
+"service_button_rate" = "Calificar servicio";
+"service_license_plate" = "Placa";
+"service_brand" = "Marca";
+
+"address_full_title" = "Dirección incompleta";
+"address_description" = "Por favor completa la dirección";
+
+// Addresses
+"addresses_title" = "Mis Direcciones";
+"addresses_add_new" = "Agregar nueva";
+
+// NewAddress
+"new_address_address" = "Dirección";
+"new_address_name" = "Nombre";
+"new_address_comment" = "¿Deseas agregar un comentario?";
+"new_address_button_add" = "Agregar a mis direcciones";
+
+
+// LoadingVWC
+"loading_button_driver" = "Taxista";
+
+
+// QualityService
+"quality_title" = "Califica";
+"quality_subtitle" = "El Servicio";
+"quality_message" = "Gracias por utilizar nuestros servicios, por favor califica a tu conductor.";
+"quality_button_very_good" = "Muy Bueno";
+"quality_button_okay" = "Bueno";
+"quality_button_bad" = "Malo";
+
+// Profile
+"profile_button_register" = "Registrarse";
+"profile_button_login" = "Ya tengo mi cuenta";
+"profile_button_update" = "Actualizar datos";
+"profile_button_payment" = "Medios de pago";
+"profile_button_logout" = "Cerrar sesión";
+
+
+// Register
+"register_name" = "Tu nombre y apellido";
+"register_email" = "Tu E-mail (Correo electrónico)";
+"register_cellphone" = "Tu número de celular";
+"register_password" = "Tu contraseña";
+"register_btn_register" = "Registrarse";
+"register_btn_login" = "Ya tengo mi cuenta";
+"register_btn_sign_in" = "Ingresar";
+"login_btn_sign_in" = "Ingresar";
+"login_btn_register" = "Registrarme";
+"login_btn_recover" = "Recuperar contraseña";
+
+"register_title_1" = "Ingresa estos 4 datos";
+"register_title_2" = "solamente una vez";
+"register_title_3" = "Para tu seguridad y la del conductor";
+
+"login_title_1" = "Ya tengo mi cuenta";
+"login_title_2" = "ingresa tus datos";
+
+
+
+// recover
+"recover_email" = "Digita tu email";
+"recover_title" = "Recuperar contraseña";
+"recover_btn_finish" = "Finalizado";
+
+"recover_input_valid_email" = "Ingresa un email valido";
+"recover_input_email" = "Ingresa tu email";
+"recover_input_password" = "Ingresa la contraseña";
+"recover_input_code" = "Ingresa el código";
+"recover_email_not_registered" = "El email no esta registrado";
+"recover_input_code_received" = "Digita el código que enviamos a tu correo electrónico para que puedas ingresar la nueva contraseña";
+"recover_error_code_register" = "¡Código incorrecto!";
+
+"register_alert_title" = "¡Advertencia!";
+"register_alert_button" = "Aceptar";
+"register_alert_1" = "Debes ingresar Tu contraseña";
+"register_alert_2" = "Debes ingresar un Email valido";
+"register_alert_3" = "Debes ingresar Tu E-mail (Correo electrónico)";
+"register_alert_4" = "Debes ingresar Tu contraseña";
+"register_alert_5" = "Debes ingresar un Número valido";
+"register_alert_6" = "Debes ingresar Tu número de celular";
+"register_alert_7" = "Debes ingresar un Email valido";
+"register_alert_8" = "Debes ingresar Tu E-mail (Correo electrónico)";
+"register_alert_9" = "Debes ingresar Tus nombres y apellidos";
+"register_alert_10" = "Usuario no encontrado, verifica tu Email o Contraseña";
+"register_alert_11" = "Verifica tu conexion a Internet";
+"register_alert_12" = "Usuario ya registrado";
+
+// History
+"history_no_services" = "Sin servicios finalizados";
+
+// Login
+
+// Schedule
+"schedule_button_schedules" = "Ver mis agendamientos";
+"schedule_button_new" = "Agendar Servicio";
+"schedule_title_one_1" = "Fecha de agendamiento";
+"schedule_title_one_2" = "Max 24 hr antes";
+
+"schedule_title_two_1" = "Motivo de agendamiento";
+"schedule_title_two_2" = "Max 24 hr antes";
+
+"schedule_title_three_1" = "Lugar de agendamiento";
+"schedule_title_three_2" = "Solo para la ciudad";
+
+"schedule_middle_one_1" = "Lugar de destino";
+"schedule_middle_one_2" = "Solo para fuera de la ciudad y mensajeria";
+
+"schedule_confirmation" = "Confirmar solicitud";
+
+
+"schedule_item_cancel" = "Cancelar";
+"schedule_item_finished" = "Finalizado";
+"schedule_item_wait" = "En espera";
+"schedule_item_cancelled" = "Cancelado";
+"schedule_item_plate" = "Placa";
+"schedule_item_brand" = "Marca";
+"schedule_item_site" = "Mi ubicación";
+"schedule_item_destination" = "Destino";
+"schedule_item_outside" = "Fuera de la ciudad";
+"schedule_item_barrio" = "Barrio";
+"schedule_my_schedules" = "Mis agendamientos";
+"schedule_set_date" = "Seleccionar fecha y hora";
+
+// network status
+"connection_bad" = "No hay conexion a internet";
+
+// payment
+"payment_type_label" = "Tipo pago";
+"payment_type_cash" = "Efectivo";
+"payment_type_tc" = "Tarjeta";
+"payment_type_ticket" = "Vale";
+"payment_list_title" = "Metodos de pago";
+"payment_list_add" = "Agregar";
+
+// ticket
+"ticket_code" = "Código autorización:";
+"ticket_value" = "Ingresa datos del vale";
+"ticket_tot_units" = "Total unidades: ";
+"ticket_tot_charge" = "Total recargo: ";
+"ticket_tot_val" = "Total COP";
+
